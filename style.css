@@ -11,6 +11,29 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Gilroy";
+    src: url(chronicle-display/Gilroy-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(chronicle-display/Gilroy-Heavy.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+.aritcle-subtitles{
+    font-weight: 900;
+    font-family: "Gilroy";
+}
+
+.article-paragraph {
+    font-family: "Gilroy";
+    font-weight: 900;
+}
+
 .body {
     background: var(--bg);
     color: var(--white);
@@ -36,11 +59,11 @@
 
 }
 
-
 .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: "Gilroy";
 }
 
 body {
@@ -91,10 +114,10 @@ article:nth-child(even) {
 .h4-hero {
     font-size: 18px;
     text-transform: uppercase;
-    color: #F2A81D;
+    color: rgba(251, 215, 132, 1);
 }
 
-.h1-hero{
+.h1-hero {
     font-size: 50px;
     line-height: 1.2;
     padding-top: 32px;
@@ -105,7 +128,7 @@ article:nth-child(even) {
 .button {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #F2A81D;
+    background-color: rgba(251, 215, 132, 1);
     border: none;
     color: white;
     font-size: 16px;
@@ -128,7 +151,7 @@ main {
 .article-subtitles {
     font-size: 14px;
     text-transform: uppercase;
-    color: #F2A81D;
+    color: rgba(251, 215, 132, 1);
 }
 
 .article-title {
@@ -143,7 +166,7 @@ main {
 }
 
 .article-link {
-    color: #F2A81D;
+    color: rgba(251, 215, 132, 1);
     text-decoration: none;
     font-size: 16px;
 }
@@ -197,21 +220,58 @@ footer ul {
 .body {
     font-family: "Chronicle Display";
 }
-.header-top{
+
+.header-top {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.1;
 }
-.article-title{
+
+.article-title {
     font-size: 64px;
     padding-top: 27px;
     padding-bottom: 27px;
 
 }
-.article-paragraph{
+
+.article-paragraph {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.7;
     padding-bottom: 27pxx;
 }
 
+.MNTN {
+    font-weight: 108px;
+    font-size: 38px;
+}
+
+.p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 700;
+    font-family: "Gilroy";
+}
+
+.item-yellow {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.colum-1 {
+    font-size: 18px;
+    font-weight: 500px;
+    font-weight: 700;
+    font-family: "Gilroy"; 
+}
+
+.c {
+    font-size: 18px;
+    font-weight: 500px;
+    font-weight: 700;
+    font-family: "Gilroy";
+}
+.li{
+    margin-top: 24px;
+}
